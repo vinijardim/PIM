@@ -1,0 +1,50 @@
+@media (min-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  /* Header */
+
+  .header .container {
+    flex-direction: row;
+  }
+
+  .logo {
+    margin: 0px 20px 20px 0px;
+    max-width: 300px;
+  }
+
+  .menu {
+    margin: 0 0 0 auto;
+    align-self: center;
+  }
+
+  .menu ul li a {
+    padding: 1em;
+  }
+
+  /* Slide */
+
+  .principal_slides ul li img {
+    height: 350px;
+  }
+
+  /* Principal */
+  .principal {
+    text-align: left;
+  }
+
+  .principal_conteudo {
+    display: inline-flex;
+  }
+
+  .principal_conteudo img {
+    max-width: 50%;
+  }
+
+  .principal_conteudo p {
+    text-align: center;
+    max-width: 50%;
+    align-self: center;
+  }
+}

@@ -42,6 +42,7 @@ img {
 
 .logo {
   margin: 0px auto 20px auto;
+  max-width: 80%;
 }
 
 .menu {
