@@ -47,7 +47,6 @@ img {
 
 .menu {
   margin: 0 auto;
-  max-width: 100%;
   align-self: center;
 }
 
@@ -86,7 +85,7 @@ img {
 
 .apresentacao h2 {
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* Principal */
@@ -103,12 +102,44 @@ img {
   padding: 0px 0px 10px 0px;
 }
 
+/* Informações */
+.informacoes {
+  background: #000000;
+  color: #ffffff;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+
+.informacoes h1 {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.informacoes_conteudo {
+  margin-bottom: 30px;
+}
+
+.informacoes_conteudo img {
+  padding: 0px 0px 10px 0px;
+}
+
 /* Rodapé */
 .footer {
   padding: 20px 0 20px 0;
   text-align: center;
   background: lightgray;
-  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.footer ul li {
+  padding-bottom: 0.4em;
+}
+
+.copy {
+  background: #000000;
+  color: #ffffff;
+  padding: 10px 0;
+  text-align: center;
   font-size: 0.6em;
 }
 
