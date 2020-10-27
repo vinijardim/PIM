@@ -74,13 +74,41 @@
     align-self: center;
     margin-left: 5px;
   }
+
+  /* Sobre - CSS */
+
+  .imagem_principal img {
+    width: 100vw;
+    height: 30vh;
+  }
+  /* Servicos */
+  .servicos {
+    text-align: center;
+  }
+
+  .servicos .container {
+    flex-direction: row;
+  }
+
+  .principal_servico {
+    margin: 0 10px 40px 10px;
+  }
+
+  .principal_servico h1 {
+    margin: 30px 0;
+    text-transform: capitalize;
+  }
+
+  .principal_servico p {
+    margin-top: 10px;
+  }
 }
 
 /* Visualização em Desktop */
 @media (min-width: 1024px) {
   /* Header */
   .menu ul li a {
-    padding: 2em;
+    padding: 1em;
   }
 
   /* Slide */
@@ -141,5 +169,19 @@
   .informacoes_conteudo p {
     max-width: 70%;
     padding: 0px 30px 0px 30px;
+  }
+
+  /* Sobre - CSS */
+  .imagem_principal img {
+    width: 100vw;
+    height: 40vh;
+  }
+  /* Servicos */
+  .principal_servico {
+    margin: 0 auto 40px auto;
+  }
+
+  .principal_servico p {
+    margin-top: 10px;
   }
 }

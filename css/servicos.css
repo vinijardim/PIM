@@ -1,0 +1,24 @@
+/* Servicos */
+.servicos {
+  text-align: center;
+}
+
+.servicos h1 {
+  margin: 30px 0;
+  text-transform: capitalize;
+}
+
+.principal_servico {
+  flex: 1;
+  max-width: 350px;
+  margin: 0 auto 20px auto;
+}
+
+.principal_servico img {
+  max-width: 100%;
+}
+
+.principal_servico p {
+  margin-top: 10px;
+  display: block;
+}
