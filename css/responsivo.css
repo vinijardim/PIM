@@ -27,7 +27,8 @@
   /* Slide */
 
   .principal_slides ul li img {
-    height: 350px;
+    width: 100vw;
+    height: 30vh;
   }
 
   /* Principal */
@@ -75,7 +76,7 @@
     margin-left: 5px;
   }
 
-  /* Sobre - CSS */
+  /* Serviços - CSS */
 
   .imagem_principal img {
     width: 100vw;
@@ -101,6 +102,17 @@
 
   .principal_servico p {
     margin-top: 10px;
+  }
+
+  /* Sobre - CSS */
+  .apresentacao .container {
+    flex-direction: row;
+  }
+
+  .apresentacao_img img {
+    max-width: 40%;
+    height: 220px;
+    margin: 0 1em 0 1em;
   }
 }
 
@@ -171,7 +183,7 @@
     padding: 0px 30px 0px 30px;
   }
 
-  /* Sobre - CSS */
+  /* Serviços - CSS */
   .imagem_principal img {
     width: 100vw;
     height: 40vh;

@@ -1,0 +1,33 @@
+.imagem_principal img {
+  width: 100vw;
+  height: 20vh;
+}
+
+/* Apresentação */
+
+.apresentacao h1 {
+  text-transform: capitalize;
+  margin-bottom: 0.7em;
+}
+
+.apresentacao p {
+  margin-bottom: 2em;
+}
+
+.apresentacao .apresentacao_img img {
+  margin-bottom: 1em;
+}
+
+/* Apresentação 2 */
+.segunda_apresentacao {
+  text-align: center;
+  margin: 1em auto 0 auto;
+  padding: 2em 0 5em 0;
+  background: #000000;
+  color: #ffffff;
+}
+
+.segunda_apresentacao h1 {
+  text-transform: capitalize;
+  margin-bottom: 0.7em;
+}
