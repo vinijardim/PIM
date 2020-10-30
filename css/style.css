@@ -10,8 +10,9 @@ ul {
 }
 
 body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   color: #000000;
+  background: #fffff7;
 }
 
 * {
@@ -36,7 +37,7 @@ img {
 /* Header */
 
 .header {
-  background: #404040;
+  background: url("../img/architecture-1868667.jpg") no-repeat;
   padding: 20px 0;
   text-align: center;
   border-top: #2294d2 solid 3px;
@@ -48,6 +49,11 @@ img {
   color: #ffffff;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .menu ul {
@@ -77,22 +83,24 @@ img {
 }
 
 .apresentacao h2 {
-  text-transform: capitalize;
   margin-bottom: 0.5em;
   font-size: 1.5em;
 }
 
 /* Imagem */
-.imagem_principal img {
-  width: 100vw;
-  height: 20vh;
+.imagem_principal {
+  text-align: center;
+  background: url("../img/architecture-1868667.jpg") no-repeat;
+  width: 100%;
+  height: 300px;
+  color: #ffffff;
 }
 
 /* Informações nas paginas home e serviços (pode ser retirado)*/
 .informacoes {
-  border-top: #000000 solid 2px;
-  border-bottom: #000000 solid 2px;
-  background: #2294d2;
+  border-top: #2294d2 solid 2px;
+  border-bottom: #2294d2 solid 2px;
+  background: #404040;
   color: #ffffff;
   padding: 20px 0 20px 0;
   text-align: center;
@@ -100,7 +108,7 @@ img {
 
 .informacoes h1 {
   margin-bottom: 20px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .informacoes_conteudo {
@@ -115,7 +123,7 @@ img {
 .footer {
   padding: 20px 0 20px 0;
   text-align: center;
-  background: #404040;
+  background: #9c9c9c;
   color: #ffffff;
   font-size: 0.9em;
 }
