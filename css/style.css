@@ -36,14 +36,18 @@ img {
 /* Header */
 
 .header {
-  background: #000000;
-  padding: 20px 0 20px 0;
+  background: #404040;
+  padding: 20px 0;
   text-align: center;
+  border-top: #2294d2 solid 3px;
+  border-bottom: #2294d2 solid 3px;
 }
 
 .logo {
-  max-width: 80%;
   margin: 0 auto 20px auto;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .menu ul {
@@ -66,41 +70,29 @@ img {
   font-size: 1em;
 }
 
-/* Slide */
-
-.principal_slides ul li img {
-  width: 100vw;
-  height: 20vh;
-}
-
-/* Apresentação */
+/* Apresentação*/
 .apresentacao {
   padding: 20px 0 20px 0;
   text-align: center;
 }
 
 .apresentacao h2 {
-  text-transform: uppercase;
-  margin-bottom: 20px;
+  text-transform: capitalize;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
 }
 
-/* Principal */
-.principal {
-  padding: 20px 0 20px 0;
-  text-align: center;
+/* Imagem */
+.imagem_principal img {
+  width: 100vw;
+  height: 20vh;
 }
 
-.principal_conteudo {
-  margin-bottom: 30px;
-}
-
-.principal_conteudo img {
-  padding: 0px 0px 10px 0px;
-}
-
-/* Informações */
+/* Informações nas paginas home e serviços (pode ser retirado)*/
 .informacoes {
-  background: #000000;
+  border-top: #000000 solid 2px;
+  border-bottom: #000000 solid 2px;
+  background: #2294d2;
   color: #ffffff;
   padding: 20px 0 20px 0;
   text-align: center;
@@ -123,7 +115,8 @@ img {
 .footer {
   padding: 20px 0 20px 0;
   text-align: center;
-  background: lightgray;
+  background: #404040;
+  color: #ffffff;
   font-size: 0.9em;
 }
 

@@ -1,13 +1,8 @@
-.imagem_principal img {
-  width: 100vw;
-  height: 20vh;
-}
-
-/* Apresentação */
-
+/* Apresentação - pode ser formatado igual ao da pagina home e adicionado ao style*/
 .apresentacao h1 {
   text-transform: capitalize;
-  margin-bottom: 0.7em;
+  margin-bottom: 0.5em;
+  font-size: 1.5em;
 }
 
 .apresentacao p {
@@ -23,11 +18,14 @@
   text-align: center;
   margin: 1em auto 0 auto;
   padding: 2em 0 5em 0;
-  background: #000000;
+  border-top: #000000 solid 2px;
+  border-bottom: #000000 solid 2px;
+  background: #2294d2;
   color: #ffffff;
 }
 
 .segunda_apresentacao h1 {
   text-transform: capitalize;
-  margin-bottom: 0.7em;
+  font-size: 2em;
+  margin-bottom: 0.5em;
 }

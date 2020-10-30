@@ -1,0 +1,57 @@
+/* Slide */
+.principal_slides ul li img {
+  width: 100vw;
+  height: 20vh;
+}
+
+/* Principal */
+.principal {
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+
+.principal_conteudo {
+  margin-bottom: 30px;
+}
+
+.principal_conteudo img {
+  padding: 0px 0px 10px 0px;
+}
+
+/* JS - Slides */
+
+.js [data-slide] {
+  position: relative;
+}
+.js [data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+.js [data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+
+[data-slide-nav] {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin-top: 0.3em;
+}
+[data-slide-nav] > button {
+  display: inline-block;
+  width: 0.4em;
+  margin: 0.3em 0.1em;
+  height: 0.35em;
+  border: none;
+  padding: 0em;
+  border-radius: 0.6em;
+  background: #1d1d1d;
+  text-indent: -100em;
+  overflow: hidden;
+}
+[data-slide-nav] > button.active {
+  background: grey;
+}
