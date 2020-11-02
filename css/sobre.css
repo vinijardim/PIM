@@ -5,6 +5,15 @@
   font-size: 1.5em;
 }
 
+.apresentacao h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  margin: 8px auto;
+}
+
 .apresentacao p {
   margin-bottom: 2em;
 }
@@ -26,6 +35,15 @@
   float: auto;
 }
 
+.imagem_principal_sobre h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  margin: 8px auto;
+}
+
 /* Apresentação 2 */
 .segunda_apresentacao {
   text-align: center;
@@ -41,6 +59,15 @@
   text-transform: capitalize;
   font-size: 2em;
   margin-bottom: 0.5em;
+}
+
+.segunda_apresentacao h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  margin: 8px auto;
 }
 
 .segunda_apresentacao p {

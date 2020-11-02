@@ -87,6 +87,15 @@ img {
   font-size: 1.5em;
 }
 
+.apresentacao h2:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 8px auto;
+}
+
 /* Imagem */
 .imagem_principal {
   text-align: center;
@@ -109,6 +118,15 @@ img {
 .informacoes h1 {
   margin-bottom: 20px;
   text-transform: capitalize;
+}
+
+.informacoes h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  margin: 8px auto;
 }
 
 .informacoes_conteudo {

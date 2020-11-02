@@ -6,3 +6,12 @@
   height: 200px;
   color: #ffffff;
 }
+
+.imagem_principal_contato h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #ffffff;
+  margin: 8px auto;
+}
