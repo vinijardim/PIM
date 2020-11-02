@@ -12,10 +12,12 @@
 
 .principal_conteudo {
   margin-bottom: 30px;
+  background: #000000;
+  color: #ffffff;
 }
 
-.principal_conteudo img {
-  padding: 0px 0px 10px 0px;
+.principal_conteudo p {
+  padding: 1em;
 }
 
 /* JS - Slides */

@@ -37,7 +37,7 @@ img {
 /* Header */
 
 .header {
-  background: url("../img/architecture-1868667.jpg") no-repeat;
+  background: url("../img/architecture-1868667.jpg");
   padding: 20px 0;
   text-align: center;
   border-top: #2294d2 solid 3px;
@@ -113,10 +113,11 @@ img {
 
 .informacoes_conteudo {
   margin-bottom: 30px;
+  background: #000000;
 }
 
-.informacoes_conteudo img {
-  padding: 0px 0px 10px 0px;
+.informacoes_conteudo p {
+  padding: 1em;
 }
 
 /* Rodapé */

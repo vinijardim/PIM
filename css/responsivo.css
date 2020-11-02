@@ -21,7 +21,7 @@
   }
 
   .menu ul li a {
-    padding: 1em;
+    padding: 0.5em;
   }
 
   /* Slide */
@@ -76,11 +76,33 @@
     margin-left: 5px;
   }
 
+  /* Sobre - CSS */
+  .apresentacao .container {
+    flex-direction: row;
+  }
+
+  .apresentacao_img img {
+    max-width: 40%;
+    height: 220px;
+    margin: 0 1em 0 1em;
+  }
+
+  .imagem_principal_sobre {
+    padding: 6em 0em;
+    height: 250px;
+  }
+
+  .segunda_apresentacao .segunda_apresentacao_img img {
+    max-width: 40%;
+    height: 220px;
+    margin: 0 1em 0 1em;
+  }
+
   /* Serviços - CSS */
 
-  .imagem_principal img {
-    width: 100vw;
-    height: 30vh;
+  .imagem_principal_servicos {
+    padding: 6em 1em;
+    height: 250px;
   }
   /* Servicos */
   .servicos {
@@ -103,17 +125,6 @@
   .principal_servico p {
     margin-top: 10px;
   }
-
-  /* Sobre - CSS */
-  .apresentacao .container {
-    flex-direction: row;
-  }
-
-  .apresentacao_img img {
-    max-width: 40%;
-    height: 220px;
-    margin: 0 1em 0 1em;
-  }
 }
 
 /* Visualização em Desktop */
@@ -130,7 +141,7 @@
 
   /* Apresentação */
   .apresentacao {
-    padding: 60px 0 60px 0;
+    padding: 60px 0 40px 0;
   }
 
   .apresentacao h2 {
@@ -166,6 +177,7 @@
 
   .informacoes h1 {
     text-align: center;
+    margin: 1em 0 1.5em 0;
   }
 
   .informacoes_conteudo {
@@ -184,10 +196,6 @@
   }
 
   /* Serviços - CSS */
-  .imagem_principal img {
-    width: 100vw;
-    height: 40vh;
-  }
   /* Servicos */
   .principal_servico {
     margin: 0 auto 40px auto;
@@ -195,5 +203,26 @@
 
   .principal_servico p {
     margin-top: 0;
+  }
+
+  .imagem_principal_servicos {
+    padding: 10em 1em;
+    background: url("../img/laptop-3174729.jpg");
+  }
+  /* Sobre - CSS */
+
+  .imagem_principal_sobre {
+    text-align: center;
+    padding: 10em 1em;
+    background: url("../img/architecture-1868667.jpg") center;
+    width: 100%;
+    height: 400px;
+    color: #ffffff;
+  }
+
+  /* Contato - CSS */
+  .imagem_principal_contato {
+    padding: 10em 1em;
+    background: url("../img/social-networking-2187996.jpg");
   }
 }
