@@ -15,3 +15,44 @@
   background: #ffffff;
   margin: 8px auto;
 }
+
+.contato h1 {
+  margin: 1em auto;
+  text-transform: capitalize;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.contato h1:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000000;
+  margin: 8px auto 20px auto;
+}
+
+.contato_form {
+  margin-bottom: 2em;
+}
+
+.contato_form label {
+  display: block;
+  margin: 0.2em 0;
+  font-weight: bold;
+}
+
+.contato_form input {
+  display: block;
+  margin-bottom: 0.6em;
+  padding: 2px;
+}
+
+.contato_form button {
+  margin: 1em 0;
+  width: 40%;
+  padding: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
