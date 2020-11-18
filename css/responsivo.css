@@ -214,6 +214,8 @@
   .imagem_principal_servicos {
     padding: 10em 1em;
     background: url("../img/laptop-3174729.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   /* Sobre - CSS */
 
@@ -230,5 +232,6 @@
   .imagem_principal_contato {
     padding: 10em 1em;
     background: url("../img/social-networking-2187996.jpg");
+    background-size: 100% 100%;
   }
 }
