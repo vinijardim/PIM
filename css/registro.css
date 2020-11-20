@@ -45,7 +45,7 @@
 .contato_form input {
   display: block;
   margin-bottom: 0.6em;
-  padding: 2px;
+  padding: 0.3em;
 }
 
 .contato_form button {
@@ -55,4 +55,8 @@
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.2em;
+}
+
+.contato_form .login {
+  margin-top: 3em;
 }

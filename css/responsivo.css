@@ -12,7 +12,7 @@
 
   .logo {
     margin: 0px 20px 20px 0px;
-    max-width: 300px;
+    max-width: 200px;
   }
 
   .menu {
@@ -74,34 +74,6 @@
     max-width: 50%;
     align-self: center;
     margin-left: 5px;
-  }
-
-  /* Sobre - CSS */
-
-  .imagem_principal_sobre {
-    padding: 6em 0em;
-    height: 250px;
-    width: 100vw;
-  }
-
-  .apresentacao .container {
-    flex-direction: row;
-  }
-
-  .apresentacao .texto1 {
-    margin: 0 auto;
-    max-width: 90%;
-  }
-
-  .apresentacao_img img {
-    height: 220px;
-    width: 90vw;
-  }
-
-  .segunda_apresentacao .segunda_apresentacao_img img {
-    max-width: 40%;
-    height: 220px;
-    margin: 0 1em 0 1em;
   }
 
   /* Serviços - CSS */
@@ -217,18 +189,8 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
-  /* Sobre - CSS */
 
-  .imagem_principal_sobre {
-    text-align: center;
-    padding: 10em 1em;
-    background: url("../img/architecture-1868667.jpg") center;
-    width: 100%;
-    height: 400px;
-    color: #ffffff;
-  }
-
-  /* Contato - CSS */
+  /* Registro - CSS */
   .imagem_principal_contato {
     padding: 10em 1em;
     background: url("../img/social-networking-2187996.jpg");

@@ -3,9 +3,9 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>PIM</title>
+        <title>DX Investimentos</title>
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/contato.css">
+        <link rel="stylesheet" href="css/registro.css">
         <link rel="stylesheet" href="css/responsivo.css">
         <script>
             document.documentElement.classList.add("js");
@@ -22,7 +22,7 @@
                         <ul>
                             <li><a href="index.html">home</a></li>
                             <li><a href="servicos.html">serviços</a></li>
-                            <li><a href="contato.html">contato</a></li>
+                            <li><a href="registro.html">registro</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -30,20 +30,30 @@
         </header>
 
         <section class="imagem_principal_contato">
-            <h1>Gostaria de um retorno? Deixe seu contato que te ligaremos em breve!</h1>
+            <h1>Faça o seu registro gratuitamente!</h1>
         </section>
 
         <section class="contato">
-            <h1>Contato</h1>
+            <h1>Registro</h1>
             <form id="form_contato" class="contato_form container">
                 <label for="nome">Nome</label>
                 <input type="text" id="nome">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" id="sobrenome">
+                <label for="data_nascimento">Data de Nascimento</label>
+                <input type="text" id="data_nascimento">
                 <label for="email">E-mail</label>
                 <input type="text" id="email">
+                <label for="rua">Rua</label>
+                <input type="text" id="rua">
+                <label for="numero">Nº</label>
+                <input type="text" id="numero">
                 <label for="telefone">Telefone</label>
                 <input type="text" id="telefone">
-                <label for="msg">Mensagem</label>
-                <textarea id="msg"></textarea>
+                <label for="login" class="login">Login</label>
+                <input type="text" id="login">
+                <label for="senha">Senha</label>
+                <input type="password" id="senha">
                 <button type="submit" class="btn">Enviar</button>
             </form>
         </section>
