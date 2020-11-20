@@ -40,13 +40,13 @@ img {
   background: url("../img/architecture-1868667.jpg");
   padding: 20px 0;
   text-align: center;
-  border-top: #2294d2 solid 3px;
-  border-bottom: #2294d2 solid 3px;
+  border-top: #2294d2 solid 1px;
+  border-bottom: #2294d2 solid 1px;
 }
 
 .logo {
   margin: 0 auto;
-  max-width: 200px;
+  max-width: 130px;
 }
 
 .menu ul {
@@ -98,7 +98,7 @@ img {
   color: #ffffff;
 }
 
-/* Informações nas paginas home e serviços (pode ser retirado)*/
+/* Informações nas paginas home e serviços */
 .informacoes {
   border-top: #2294d2 solid 2px;
   border-bottom: #2294d2 solid 2px;
