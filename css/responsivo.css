@@ -112,6 +112,11 @@
     padding: 1em;
   }
 
+  .logo {
+    margin: 0px 20px 20px 0px;
+    max-width: 200px;
+  }
+
   /* Slide */
   .principal_slides ul li img {
     height: 400px;
